@@ -1,10 +1,65 @@
-.font1{
-  background-color: black;
-  color: lightBlue;
-  font-size: 30px;
-  margin: auto;
-  padding: auto;
+/* Navbar container */
+
+
+html, body
+{
+    margin: 0px; padding: 0px
 }
-body{
-  background-color: gray;
+
+.style1 {
+  background-color: rgb(24, 35, 51);
+  color: white;
+  margin: 0;
+  font-family: Arial;
+  font-size: 28px;
+  padding-top: 10;
+  padding-right: 10;
+  padding-bottom: 0;
+  padding-left: 10;
+  text-align: center;
+}
+
+.style2 {
+  background-color: rgb(135, 0, 0);
+  color: white;
+  margin: 0;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 10;
+  text-align: left;
+}
+
+.inlineList2{
+
+  background-color: rgb(24, 35, 51);
+  color: white;
+  margin: 0px;
+  font-size: 30px;
+}
+
+
+
+ul{
+  margin:0;
+}
+
+li{
+  display:inline;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  padding: 15;
+  white-space: nowrap;
+  overflow: hidden;
+}
+a:hover {
+  color: rgb(163, 151, 137);
+  padding: 21;
 }
